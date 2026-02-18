@@ -41,7 +41,6 @@ ${user.charAt(0).toUpperCase() + user.slice(1)}
 
 app.get('/api', async (req, res) => {
     let usuario = req.query.user;
-    usuario = "prg-maker"
     if (!usuario) {
         return res.status(400).send('❌ Erro: Parâmetro "user" é obrigatório!');
     }

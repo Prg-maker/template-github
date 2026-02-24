@@ -2,20 +2,38 @@
 
 Uma API simples que gera cards SVG personalizados com informações de perfis do GitHub. Perfeito para usar em READMEs, sites pessoais ou portfólios!
 
-## 📸 Exemplo do card gerado
+## 📸 Exemplo do card (themas) gerado
+
 
 <div align="center">
-  
+<p>
   ## 📊 Minhas estatísticas
+
+</p>
+<div >
+  
   
   <img src="https://template-github-47jp.vercel.app/api?user=prg-maker" 
        alt="GitHub Profile Card" 
        width="450">
+
+ 
+</div>
+
+<div>
+  
+  
+  <img src="https://template-github-47jp.vercel.app/api/dark?user=prg-maker" 
+       alt="GitHub Profile Card" 
+       width="450">
+
   
   <p>
     <i>✨ Card atualizado automaticamente com meus dados do GitHub ✨</i>
   </p>
 </div>
+</div>
+
 ## 🎯 Sobre o projeto
 
 Este é um template de servidor Node.js que cria dinamicamente imagens SVG com dados de perfis do GitHub. Ao fazer uma requisição para a API com um nome de usuário, ela busca as informações na API pública do GitHub e retorna um card visual personalizado.
